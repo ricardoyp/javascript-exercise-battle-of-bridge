@@ -78,7 +78,7 @@ img {
   align-items: center;
 }
 
-.start-btn {
+.start-btn, .gameOver-btn {
   text-align: center;
   display: inline-block;
   margin: 5px;
@@ -101,4 +101,8 @@ img {
 
 .hidden {
   display: none;
+}
+
+.life-points{
+  font-size: 1rem;
 }

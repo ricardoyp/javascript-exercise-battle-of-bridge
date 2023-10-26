@@ -15,6 +15,10 @@
       <div class="bar">
         <div id="health-heroe" class="health"></div>
       </div>
+      <div>
+        <p class="life-points">Life: </p>
+        <p class="life-points" id="life-heroe">100 </p>
+      </div>
       <button class='start-btn' id="attack">Attack ⚔️</button>
     </div>
     <img
@@ -24,6 +28,10 @@
       <p class="name">Enemigo 🦹</p>
       <div class="bar">
         <div id="health-enemigo" class="health"></div>
+      </div>
+      <div>
+        <p class="life-points">Life: </p>
+        <p class="life-points" id="life-enemigo">100 </p>
       </div>
     </div>
   </div>
@@ -38,9 +46,11 @@
       <p>Battle Log</p>
       <ul id="history"></ul>
     </div>
+    <button id="refresh">Restart</button>
   </div>
   <div class="hidden" id="game-over">
     <p>Game Over</p>
+    <button class="gameOver-btn" id="gameOver">Game Over</button>
   </div>
   <script src="./js/Dice.js"></script>
   <script src="./js/Player.js"></script>
