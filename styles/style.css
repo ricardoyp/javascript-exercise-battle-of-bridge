@@ -78,7 +78,7 @@ img {
   align-items: center;
 }
 
-.start-btn, .gameOver-btn {
+.start-btn, .gameOver-btn, .restart {
   text-align: center;
   display: inline-block;
   margin: 5px;
@@ -93,6 +93,8 @@ img {
   border-radius: 7px;
   box-shadow: 0 0.2em gray;
   cursor: pointer;
+
+  height: 40px;
 }
 
 .show {
